@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d [:lower:][:punct:] | cut -d " " -f 1 | paste -s -d '' 
+tr -d [:lower:][:punct:][:space:] | cut -d " " -f 1 | paste -s -d '' 
